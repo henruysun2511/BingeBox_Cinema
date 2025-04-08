@@ -4,7 +4,7 @@ $(document).ready(function () {
     let dots = $('.carousel-dots li');
     let prev = $('#prev');
     let next = $('#next');
-
+// Fork
     let active = 0; //biến active lưu chỉ số của item đang hiển thị, hiện đang là item thứ nhất
     let lengthItems = items.length - 1; //biến lengthItems lưu số lượng item trong slider - 1 (vì chỉ số bắt đầu từ 0)
 
