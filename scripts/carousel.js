@@ -1,3 +1,4 @@
+//Jquery
 $(document).ready(function () {
   let list = $('.carousel .carousel-list');
   let items = $('.carousel .carousel-list .carousel-image');

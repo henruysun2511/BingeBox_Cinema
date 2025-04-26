@@ -88,3 +88,74 @@ ul {
   color: white;
   font-weight: bold;
 }
+.my-profile-cgv {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.image-profile-cgv {
+  float: left;
+  width: 49%;
+}
+.format-profile-cgv {
+  margin-left: 20px;
+}
+.barcode-my-cgv {
+  float: right;
+  width: 30%;
+}
+#fileToUpload > img {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #676565;
+  border-radius: 80px;
+  height: 120px;
+  width: 120px;
+}
+.button-change-image-profile {
+  float: left;
+  margin-top: 5px;
+  text-align: center;
+  width: 120px;
+}
+.button-change-image-profile button {
+  background: #9d9b9b;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: none;
+}
+form input[type='file'] {
+  display: none;
+}
+.welcome-msg {
+  color: #7f7f7f;
+}
+.welcome-msg .hello {
+  color: black;
+}
+.cgv-info {
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  float: left;
+}
+.cgv-info > div {
+  float: left;
+}
+.cgv-status-member {
+  width: 39%;
+}
+.cgv-point {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+}
+.cgv-info .cgv-status-member label {
+  width: 42%;
+  font-weight: normal;
+  display: inline-block;
+}
+.dashboard {
+  color: #7f7f7f;
+}
