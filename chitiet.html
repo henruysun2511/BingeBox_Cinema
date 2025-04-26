@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Captain America: Thế Giới Mới</title>
+        <style>
+            body {
+              font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              background-image: linear-gradient(90deg, #000000, #3533cd);
+              color: #ffffff;
+              margin: 0;
+              padding: 0;
+              font-size: 100%;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: #2a4fadf6;
+                padding: 10px 20px;
+            height: 40px;
+            }
+.logo img {
+    width: 125px;
+    height:auto;
+    display: block;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-weight: bold;
+}
+nav ul li {
+    font-size: .8em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.auth-buttons button {
+     margin-left:15px;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 15px;
+     font-weight: bold;
+}
+.login {
+    background: linear-gradient(5deg, #50b2dc, #3d42ab);
+    color: white;
+}
+.register {
+    background: linear-gradient(5deg, #d74a23, #a3097f);
+    color: white;
+}
+.movie-info {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    align-items: start;
+    margin-left: 40px;
+}
+.movie-poster img {
+    width: 270px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.movie-details {
+flex: 1;
+text-align: left;
+}
+.buttons button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.trailer {
+    background: #84aced;
+}
+.ticket {
+    background: #e45555;
+}
+.movie-description, .cast {
+    padding: 15px 20px;
+    margin-left: 70px;
+}
+.movie-description h2, .cast h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 8px solid #434799;
+    border-radius:4px;
+}
+.cast-list {
+    display: flex;
+    gap: 25px;
+    margin-left: 40px;
+}
+.actor img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+    .actor {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.age-rating {
+    background: rgb(236, 220, 131);
+    color: black;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #fefefd;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: wheat;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo"><img src="images/logo.jpg" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="">Phim</a></li>
+                    <li><a href="">Rạp</a></li>
+                    <li><a href="">Giá vé</a></li>
+                    <li><a href="">Khuyến mãi</a></li>
+                    <li><a href="">Tin tức</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+            <button class="login" >Đăng nhập</button>
+            <button class="register" >Đăng ký</button>
+            </div>
+        </header>
+<main>
+<section class="movie-info">
+    <div class="movie-poster">
+<img src="images/captain.jpg" alt="Captain America: Thế Giới Mới Poster">
+</div>
+<div class="movie-details">
+<h1>CAPTAIN AMERICA: THẾ GIỚI MỚI</h1>
+<p><strong>Thời lượng:</strong>  118 phút</p>
+<p><strong> Khởi chiếu:</strong> 14/02/2025</p>
+<p><strong>Quốc gia:</strong> Mỹ</p>
+<p><strong>Đạo diễn:</strong> Julius Onah</p>
+<p><strong>Thể loại:</strong> Hành động, Khoa học viễn tưởng</p>
+<span class=" age-rating">13+</span>
+<div class="buttons">
+<button class="trailer">TRAILER</button>
+<button class="ticket">ĐẶT VÉ</button>
+</div>
+</div>
+</section>
+<section class="movie-description">
+<h2>Nội dung</h2>
+<p>Sau cuộc gặp gỡ với tân Tổng thống Hoa Kỳ Thaddeus Ross, Sam Wilson vô tình bị cuốn vào cuộc xung đột tại một sự kiện quốc tế. 
+Trong vai trò Captain America mới, Wilson buộc phải điều tra và lật tẩy một âm mưu toàn cầu bất chính, trước khi kẻ thủ ác nhấn chìm cả thế giới vào cảnh suy tàn.</p>
+</section>
+<section class="cast">
+<h2>Diễn viên</h2> 
+<div class="cast-list">
+<div class="actor"><img src="images/athony_mackie.jpg" alt="Athony Mackie"><p>Athony Mackie</p></div>
+<div class="actor"><img src="images/harrison_ford.jpg" alt="Harrison Ford"><p>Harrison Ford</p></div>
+<div class="actor"><img src="images/Giancarlo_Esposito.jpg" alt="Giancarlo Esposito"><p>Giancarlo Esposito</p></div>
+<div class="actor"><img src="images/rosa_salazar.jpg" alt="Rosa Salazar"><p>Rosa Salazar</p></div>
+<div class="actor"><img src="images/seth_rollins.jpg" alt="Seth Rollins"><p>Seth Rollins</p></div>
+<div class="actor"><img src="images/shira_haas.jpg" alt="Shira Haas"><p>Shira Haas</p> </div>
+</div>
+</section>
+</main> 
+</body>
+</html>
