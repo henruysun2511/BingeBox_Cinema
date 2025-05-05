@@ -1,0 +1,8 @@
+# Bỏ qua node_modules
+node_modules
+# Bỏ qua các file lock, config tạm
+package-lock.json
+# bỏ qua file .md
+*.md
+#bỏ qua folder ảnh
+assets/images
